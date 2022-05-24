@@ -1,0 +1,39 @@
+[Adblock Plus]
+! Title: AdList
+! Version: 20220516
+
+! Youtube
+m.youtube.com##ytm-companion-ad-renderer
+m.youtube.com###YtSparklesVisibilityIdentifier
+|https://m.youtube.com/s/player/*/player-plasma-ias-phone-zh_CN.vflset/ad.js
+||googlesyndication.com^
+/googleads.$~script,domain=~googleads.github.io
+/pagead/lvz?
+||google.com/pagead/
+||static.doubleclick.net^$domain=youtube.com
+||youtube.com/get_midroll_
+
+! 蓝奏云
+||static.sinawap.com^
+||glores2.taisantech.com^
+
+! 豆瓣电影
+m.douban.com##DIV.center
+m.douban.com##A.score-write
+m.douban.com##A.baidu-openapp
+m.douban.com##DIV.subject-banner
+m.douban.com##SPAN.app-link
+m.douban.com##DIV.sub-vendor
+m.douban.com##A.btn.green
+
+! 百度网盘
+pan.baidu.com##DIV.photo-banner
+
+! 乐享网
+www.lxapk.com##div.widget_custom_html.zib-widget.widget_text
+www.lxapk.com##posts.xx.flex.style2.ajax-item.list.posts-item:nth-of-type(1)
+www.lxapk.com##posts.xx.flex.style2.ajax-item.list.posts-item:nth-of-type(2)
+www.lxapk.com##posts.xx.flex.style2.ajax-item.list.posts-item:nth-of-type(3)
+www.lxapk.com##posts.xx.flex.style2.ajax-item.list.posts-item:nth-of-type(4)
+www.lxapk.com##.article-content > .size-full.wp-block-image
+www.lxapk.com##.adsbygoogle
